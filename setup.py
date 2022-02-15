@@ -16,6 +16,6 @@ setup(name='CalCalc',
       python_requires=">=3",
       license="MIT",
       py_modules = ["CalCalc"],
-      package_dir = {'':'CalCalc'},      
+      package_dir = {'':'calcalc'},      
       install_requires = ['argparse', 'pytest', 'numpy']
 )
