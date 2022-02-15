@@ -4,6 +4,31 @@
 ## CalCalc.py evaluates expressions, passed as strings, with either Python's "eval()" utility or with Wolfram Alpha. 
 
 
+## Installation:
+
+- Create a virtual environment with, for example,
+```bash
+python -m venv test_hw3_env
+```
+
+- Activate the environment with 
+```bash
+source test_hw3_env/bin/activate
+```
+
+- Clone the GitHub repo with CalCalc
+```bash
+git clone https://github.com/JBeechert/CalCalc.git
+```
+
+- Install CalCalc
+```bash
+pip install -e .
+```
+
+- Use it as described below!
+
+
 ## Usage:
 Takes an expression (string) an evaluates it with eval() or with Wolfram Alpha.
 Required arguments:
