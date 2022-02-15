@@ -6,7 +6,7 @@ def test_1():
     assert abs(100.0 - calculate('1000/10')) < 0.001
     
 def test_2():
-    assert calculate('How many ounces are in a gallon', True) == '128 fluid ounces' 
+    assert calculate('How many ounces are in a gallon', True) == 128.0 
     
 def test_3():
     expression = '2 + 3 + 6**2'
